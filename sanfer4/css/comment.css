@@ -1,0 +1,8 @@
+/* reset */
+body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,
+pre,form,fieldset,input,textarea,p,blockquote,th,td,
+select,img,section{ margin: 0; padding:0;}
+a{text-decoration:none;}
+ul,li{list-style: none;}
+b,strong{font-weight: normal;}
+i,em{font-style: normal;}

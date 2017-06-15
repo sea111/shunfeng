@@ -1,0 +1,43 @@
+[
+	{
+    	"brandVOList":[
+            {
+                "brandCount":3,
+                "brandName":"槽王开槽机",
+                "gmtModified":1488849373000, "iconUrl":"http://image.wpwl.org:80/uploadfile/1114/20160717/new/1468769470439-461c3cc018c34180ab70c83eb18cc5bc.jpg",
+                "id":30,
+                "orgId":35,
+                "isNewBrand":"1"
+            }
+        ],
+        "breadTypeName":"酒类/数码",
+        "breadTypeValue":"102701"
+    },{
+    	"brandVOList":[
+            {
+                "brandCount":3,
+                "brandName":"槽王开槽机",
+                "gmtModified":1488849373000, "iconUrl":"http://image.wpwl.org:80/uploadfile/1114/20160717/new/1468769470439-461c3cc018c34180ab70c83eb18cc5bc.jpg",
+                "id":30,
+                "orgId":35,
+                "isNewBrand":"0"
+            }
+        ],
+        "breadTypeName":"酒类/数码",
+        "breadTypeValue":"102704"
+    },{
+    	"brandVOList":[
+            {
+                "brandCount":3,
+                "brandName":"槽王开槽机",
+                "gmtModified":1488849373000, "iconUrl":"http://image.wpwl.org:80/uploadfile/1114/20160717/new/1468769470439-461c3cc018c34180ab70c83eb18cc5bc.jpg",
+                "id":30,
+                "orgId":35,
+                "isNewBrand":"1"
+            }
+        ],
+        "breadTypeName":"酒类/数码",
+        "breadTypeValue":"102707"
+    }
+]
+

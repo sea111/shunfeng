@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title>网络异常</title>
+		<script type="text/javascript">
+			document.documentElement.style.fontSize = document.documentElement.clientWidth /7.5 + "px";
+			window.addEventListener("resize",function(){
+				document.documentElement.style.fontSize = document.documentElement.clientWidth /7.5 + "px";
+			},false);
+		</script>
+		<style type="text/css">
+			body, div, dl, dt, dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td,select,img{ margin: 0; padding:0}
+			body,html{width: 100%;height: 100%;}
+			body{font-size: 0.28rem}
+			a{text-decoration: none;}
+			.top{width: 100%;height: 0.88rem;background: #333;color: white;font-size: 0.35rem;position: fixed;top:0}
+			.bg-icon{width:0.64rem;height:0.64rem;display: block;background: url(images/back-icon.png) no-repeat ;background-size:0.64rem 0.64rem;position:absolute;}
+			#back{background-position:0rem 0rem;left:0.1rem;bottom:0.12rem;}
+			.top div{margin: 0 auto;width: 100%;height: 100%;text-align: center;line-height: 0.88rem;}
+			.loading{width:100%;position:relative;height:100%;}
+			.loading .middle{width:100%;position:absolute;height:6rem;;text-align:center;left:0;top:0;bottom:0;right:0;margin:auto;color:#999;font-size:0.3rem}
+			.middle img{width: 2.1rem;margin:0 auto;margin-bottom:0.6rem;display:block;}
+			#wpReload{color:#0aa1f8}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<span id="back" class="bg-icon"></span>
+			<div>网络异常</div>
+		</div>
+		<div class="loading">
+			<div class="middle"><img src="images/scan_net.png"/><p>网络异常，点击<a href="javascript:;" id="wpReload"> 重新加载</a></p></div>
+		</div>
+		<script src="lib/WPBridge.js"></script>
+		<script>
+			var reload=document.getElementById('wpReload');
+			var back=document.getElementById('back');
+			reload.addEventListener('touchstart',function(){
+				
+			},false);
+			back.addEventListener('touchstart',function(){
+				WPBridge.callMethod("JsInvokeNative","wpFinishH5",{},function(){})
+			},false);
+		</script>
+	</body>
+</html>

@@ -1,0 +1,127 @@
+{
+    "data":[
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"奢侈品",
+            "breadTypeValue":"102701"
+        },
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"家具/家装/厨具",
+            "breadTypeValue":"102702"
+        },
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"家电/数码",
+            "breadTypeValue":"102703"
+        },
+        {
+            "brandVOList":[
+                {
+                    "brandCount":3,
+                    "brandName":"槽王开槽机",
+                    "gmtModified":1488849373000,
+                    "iconUrl":"http://image.wpwl.org:80/uploadfile/1114/20160717/new/1468769470439-461c3cc018c34180ab70c83eb18cc5bc.jpg",
+                    "id":30,
+                    "orgId":35
+                }
+            ],
+            "breadTypeName":"酒类/数码",
+            "breadTypeValue":"102704"
+        },
+        {
+            "brandVOList":[
+                {
+                    "brandCount":3,
+                    "brandName":"玛特尔",
+                    "gmtModified":1488849364000,
+                    "iconUrl":"http://image.wpwl.org:80/uploadfile/1739/20161111/new/1478843573467-203cf397b5164596b327e6e27deabdd7.jpg",
+                    "id":61,
+                    "orgId":65
+                }
+            ],
+            "breadTypeName":"服饰类",
+            "breadTypeValue":"102705"
+        },
+        {
+            "brandVOList":[
+                {
+                    "brandCount":1,
+                    "brandName":"2",
+                    "gmtModified":1488868379000,
+                    "iconUrl":"http://192.168.199.182:80/uploadfile/1/20170223/new/1487839017600-215eaa6b9b654c469175e7aa0715f0ac.jpg",
+                    "id":64,
+                    "orgId":69
+                },
+                {
+                    "brandCount":1,
+                    "brandName":"贝博",
+                    "gmtModified":1488868323000,
+                    "iconUrl":"http://image.wpwl.org:80/uploadfile/1739/20160830/new/1472554650950-fa20f413e7ed446891741a184be38eaa.jpg",
+                    "id":49,
+                    "orgId":54
+                },
+                {
+                    "brandCount":4,
+                    "brandName":"友醅 YU BEI",
+                    "gmtModified":1476341620000,
+                    "iconUrl":"http://image.wpwl.org:80/uploadfile/1739/20160909/new/1473414775284-2d6fd1ec3dce45cd99da2a59a709551d.jpg",
+                    "id":50,
+                    "orgId":55
+                }
+            ],
+            "breadTypeName":"母婴/儿童/用品",
+            "breadTypeValue":"102706"
+        },
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"运动/户外/钟表",
+            "breadTypeValue":"102707"
+        },
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"美妆/洗护/保健品",
+            "breadTypeValue":"102708"
+        },
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"食品/零食",
+            "breadTypeValue":"102709"
+        },
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"办公设备",
+            "breadTypeValue":"102710"
+        },
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"工业用品",
+            "breadTypeValue":"102711"
+        },
+        {
+            "brandVOList":[
+
+            ],
+            "breadTypeName":"汽车用品",
+            "breadTypeValue":"102712"
+        }
+    ],
+    "success":true
+	}
+	

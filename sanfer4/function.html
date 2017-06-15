@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		
+	</body>
+	<script>
+		var scope="global";  
+		function t(){  
+		    var scope;  
+		    console.log(scope);  //undefined 只声明没有复制
+		    scope="local"  
+		    console.log(scope);  //loacal
+		}  
+		t();  
+		function d(){
+			var a="11";
+				b="12";
+			console.log(a)//没有调用d(),不显示,调用的话显示11
+		}
+		d()//调用的话显示11
+		//console.log(a)//局部变量不能访问到，报错 a is not defined
+		console.log(b);//12 全局的
+		
+		var cc;
+		function c(){
+			cc="1";//全局
+		}
+		c();
+		console.log(cc);//1
+		
+		function e(){
+			var ae="3";
+			function f(){
+				console.log(ae);//当同时调用函数时，ae==3,若没有调用e(),得不出结果
+			}
+			f()
+		}
+		e();
+		//console.log(ae)//局部变量 ae is not defined
+		//f()//f is not defined
+	</script>
+</html>

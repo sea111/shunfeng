@@ -1,0 +1,140 @@
+html,body{
+	width:100%;
+	height:100%;
+
+}
+#box{
+	width:100%;
+	height:100%;
+}
+#header{
+	width:100%;
+	height:0.88rem;
+	background:#333333;
+}
+.top{
+	height:0.88rem;
+	position: relative;
+}
+.goback{
+	display:block;
+	background:url(../img/pic.png) no-repeat;
+	background-position:0 0;
+	background-size:3.6rem 0.4rem;
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	left:0.3rem;
+	top:0.24rem;
+}
+p.all{
+	height:0.88rem;
+	line-height:0.88rem;
+	font-size:0.36rem;
+	color:#fff;
+	text-align:center;	
+}
+/*.people{
+	background:url(../img/icon_personal.png) no-repeat;
+	width:0.38rem;
+	height:0.4rem;
+	position:absolute;
+	right:0.3rem;
+	top:0.24rem;
+	background-size:0.4rem 0.4rem;
+}*/
+#content{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    background:#f8f8f8;
+}
+#content .content-box{
+	width:100%;
+}
+#content .content-box .contents{
+
+	width:7.1rem;
+	margin:0.2rem;
+	border:1px solid #E0E0E0;
+	border-radius:0.1rem;
+	background:#fff;
+	/*background:url(../img/allBrand_03.png) no-repeat;
+	background-size:100% 100%;*/
+}
+#content .content-box .contents .head{
+	height:0.88rem;
+	border-bottom:1px solid #E0E0E0;
+	position: relative;
+}
+.imgLeft{
+	width: 0.38rem;
+    height: 0.38rem;
+    display: block;
+    position: absolute;
+    top: 0.24rem;
+    left: 2.6rem;
+}
+.expensive{
+	font-size:0.3rem;
+	line-height:0.88rem;
+	color:#E5AE19;
+	text-align: center;
+}
+.cont{
+	height:1.98rem;
+}
+.dl{
+	padding: 0 0.3rem;
+    width: 6.5rem;
+    height: 1.96rem;
+}
+.dt{
+	 margin-right: 0.34rem;
+    margin-top: 0.18rem;
+    float: left;
+    width: 1.6rem;
+    height: 1.6rem;
+    /* margin: 0.18rem 0.34rem 0.18rem 0; */
+    border: 1px solid #E0E0E0;
+    border-radius: 0.04rem;
+	
+}
+.dt .brandImg{
+	display:block;
+	width:1.6rem;
+	height:1.6rem;
+}
+.dd{
+	float:left;
+	/*margin-top:0.4rem;*/
+	width:4.44rem;
+}
+.brand{
+	margin-top: 0.26rem;
+    font-size: 0.32rem;
+    color: #333;
+}
+.num{
+	font-size: 0.06rem;
+	margin-top:0.26rem;
+	color:#666;
+}
+.starTime{
+	font-size:0.24rem;
+	margin-top:0.26rem;
+	color:#666;
+}
+.right{
+	/*margin-top: 0.55rem;*/
+	margin-top:0.8rem;
+    display: block;
+    background: url(../img/pic.png) no-repeat;
+    width: 0.4rem;
+    height: 0.4rem;
+    background-position: -3.2rem 0;
+    background-size: 3.6rem 0.4rem;
+    /* position: absolute; */
+    float: right;
+}
+

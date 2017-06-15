@@ -1,0 +1,86 @@
+.l{
+	float:left;
+}
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+#box{
+	width:100%;
+	height:100%;
+}
+.search{
+	width:100%;
+	background:#eee;
+	position: relative;
+}
+i.searchPic{
+	background:url(../img/failed-sprite.png) no-repeat;
+	display:block;
+	width:0.64rem;
+	height:0.64rem;
+	background-size:1.28rem 0.64rem;
+	background-position:-0.64rem 0;
+	position:absolute;
+	left:0.2rem;
+	top:0.5rem;
+}
+input{
+	padding-left: 0.6rem;
+    width: 5.58rem;
+	height:0.72rem;
+	line-height:0.72rem;
+	border:1px solid #ccc;
+	border-radius:0.10rem;
+	color:#333;
+	font-size:0.30rem;
+	margin-left:0.2rem;
+	outline: none;
+	margin-bottom: 0.08rem;
+}
+a{
+	position:absolute;
+	right:0.24rem;
+	top:0.7rem;
+	font-size:0.3rem;
+	color:#999;
+}
+#content{
+	width:100%;
+	
+}
+p{
+	font-size:0.32rem;
+	color:#333;
+	margin:0.4rem 0 0.4rem 0.3rem;
+}
+ul{
+	width:100%;
+	margin:0 0.3rem;
+}
+li{
+	border:1px solid #eee;
+	border-radius:0.25rem;
+	width:2rem;
+	height:0.5rem;
+	line-height: 0.5rem;
+	text-align: center;
+	font-size:0.26rem;
+	color:#666;
+	margin-bottom: 0.3rem;
+	margin-right: 0.45rem;
+}
+/*----------wrong----------*/
+#wrong{
+	width:100%;
+	display:none;
+}
+img{
+	margin: 2.2rem 2.55rem 0.8rem 2.55rem;
+}
+.sorry{
+	font-size:0.3rem;
+	color:#999;
+	text-align: center;
+}

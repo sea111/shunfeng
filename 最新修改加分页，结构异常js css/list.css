@@ -1,0 +1,287 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+	overflow: hidden
+}
+
+#box {
+	width: 100%;
+	height: 100%
+}
+
+#head {
+	width: 100%;
+	background: #333;
+	height: .88rem
+}
+
+.top {
+	width: 100%;
+	height: .88rem;
+	position: relative
+}
+
+.back {
+	display: block;
+	background: url(../img/failed-sprite.png) no-repeat;
+	width: .64rem;
+	height: .64rem;
+	background-size: 1.28rem .64rem;
+	background-position: 0rem 0rem;
+	position: absolute;
+	left: .3rem;
+	top: .1rem;
+	-webkit-tap-highlight-color: rgba(255, 0, 0, 0)
+}
+
+.name {
+	width: 100%;
+	height: .88rem;
+	line-height: .88rem;
+	font-size: .36rem;
+	color: #fff;
+	text-align: center
+}
+
+.search {
+	margin-bottom: .24rem;
+	z-index: 1;
+	width: 100%;
+	height: .9rem;
+	text-align: center;
+	-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+	-webkit-appearance: none
+}
+
+i.searchPic {
+	background: url(../img/search_03.png) no-repeat;
+	background-size: 100% 100%;
+	display: block;
+	width: .36rem;
+	height: .32rem;
+	line-height: .32rem;
+	position: absolute;
+	left: 3rem;
+	top: 1.28rem;
+	z-index: 1
+}
+
+input.search_btn {
+	width: 6.5rem;
+	height: .74rem;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: .10rem;
+	color: #999;
+	font-size: .30rem;
+	outline: 0;
+	position: relative;
+	top: -0.3rem;
+	-webkit-tap-highlight-color: rgba(255, 0, 0, 0);
+	-webkit-appearance: none
+}
+
+#content {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative
+}
+
+#content .content-box {
+	width: 100%
+}
+
+.backG {
+	width: 100%;
+	height: .46rem;
+	display: none;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	background-color: rgba(0, 0, 0, 0)
+}
+
+.listTitle {
+	width: 100%;
+	position: relative
+}
+
+.bgLift {
+	padding-left: .2rem;
+	float: left;
+	display: inline-block;
+	background: url(../img/background_06.png) no-repeat;
+	padding-right: .2rem;
+	box-sizing: border-box;
+	background-size: 100% 100%;
+	width: 2.52rem;
+	height: .46rem;
+	line-height: .46rem;
+	font-size: .3rem;
+	color: #fff;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.ul {
+	margin: 0 auto
+}
+
+.li {
+	position: relative
+}
+
+.more {
+	margin-right: 1.2rem;
+	float: right;
+	font-size: .3rem;
+	color: #999;
+	margin-top: .08rem;
+	display: inline-block;
+	width: 1rem;
+	text-align: right
+}
+
+.bgRight {
+	float: right;
+	position: absolute;
+	display: inline-block;
+	background: url(../img/more_09.png) no-repeat;
+	background-size: 100% 100%;
+	width: .14rem;
+	height: .28rem;
+	right: .85rem;
+	top: .13rem
+}
+
+li {
+	overflow: hidden
+}
+
+.two {
+	margin: .22rem .56rem .16rem .56rem
+}
+
+.lineL {
+	float: left;
+	display: inline-block;
+	width: 43%;
+	border-bottom: 1px solid #e6e6e6
+}
+
+.center {
+	float: left;
+	margin-left: .4rem;
+	margin-bottom: .15rem;
+	display: inline-block;
+	background: url(../img/square_14.png) no-repeat;
+	background-size: 100% 100%;
+	width: .14rem;
+	height: .14rem
+}
+
+.lineR {
+	float: right;
+	display: inline-block;
+	width: 40%;
+	border-bottom: 1px solid #e6e6e6
+}
+
+.three {
+	margin: 0 .3rem;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap
+}
+
+dl {
+	margin-right: .18rem;
+	width: 44%;
+	height: 4.3rem;
+	border: 1px solid #e6e6e6;
+	margin-bottom: .2rem;
+	position: relative;
+	float: left
+}
+
+.con {
+	margin: 0 auto;
+	padding-bottom:0.2rem;
+}
+
+dt {
+	width: 100%;
+	height: 3.46rem;
+	line-height: 3.46rem;
+	text-align: center;
+	font-size: 0
+}
+
+dt img {
+	display: inline-block;
+	max-height: 100%;
+	max-width: 100%;
+	vertical-align: middle
+}
+
+.hot {
+	background: url(../img/hot_18.png) no-repeat;
+	background-size: 100% 100%;
+	width: .68rem;
+	height: .34rem;
+	position: absolute;
+	top: .16rem;
+	left: 0
+}
+
+dd {
+	width: 100%;
+	height: .84rem;
+	border-top: 1px solid #e6e6e6
+}
+
+.lines {
+	background: url(../img/yellow.png) no-repeat;
+	background-size: 100% 100%;
+	width: .16rem;
+	height: .17rem;
+	position: absolute;
+	top: 3.38rem;
+	left: 48%;
+	border: 0
+}
+
+.p1 {
+	font-size: .26rem;
+	color: #333;
+	padding: .12rem 0 0 .1rem;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.p2 {
+	padding-left: .1rem;
+	font-size: .24rem;
+	color: #999;
+	margin-bottom: .1rem;
+	width: 3.46rem;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+.end {
+	float: left;
+	margin-right: .18rem;
+	width: 44%;
+	height: 4.3rem;
+	border: 1px solid #e6e6e6;
+	margin-bottom: .2rem;
+	background: url(../img/loading_03.png) no-repeat;
+	background-size: 100% 100%
+}

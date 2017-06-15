@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="css/comment.css" />
+	<link rel="stylesheet" href="css/list.css" />
+	<script type="text/javascript" src="js/jquery-2.1.0.min.js" ></script>
+	<script type="text/javascript" src="js/iscroll.js" ></script>
+	<script type="text/javascript" src="js/WPBridge.js" ></script>
+	<script type="text/javascript" src="js/list.js" ></script>
+	<script type="text/javascript">
+			//rem
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			window.addEventListener("resize",function(){
+				document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + "px";
+			},false);
+		</script>
+	<body>
+		<div id="box">
+			<header id="head">
+				<section class="top">
+					<a href="javascript:;" class="back" onclick="window.history.back()"></a>
+					<p class="name">SANFER&nbsp;帅丰</p>
+				</section>		
+			</header>
+			<div class="search">
+					<i class="searchPic"></i>
+				<input type="text" placeholder="搜索" class="search_btn"/>
+			</div>
+			<div id="content">
+				<div class="content-box">
+					<div class="list-goods">
+						<div class="con">
+							<!--<ul>
+								<li>
+									<i class="bgLift"></i>
+									<span class="more">更多</span>
+									<i class="bgRight"></i>
+								</li>
+								<li>
+									<i class="lineL"></i>
+									<span class="center"></span>
+									<i class="lineR"></i>
+								</li>
+									<dl>
+										<dt><img src="img/1.png" /></dt>
+										<dd>
+											<p class="p1">1111111111wwww</p>
+											<p class="p2">1111</p>
+										</dd>
+									</dl>
+									<dl>
+										<dt><img src="img/1.png" /></dt>
+										<dd>
+											<p class="p1">1111111111wwww</p>
+											<p class="p2">1111</p>
+										</dd>
+									</dl>
+								</li>
+							</ul>-->
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="loading">
+				<img src="img/loading.gif" alt="" id="loading-gif"/>
+				<p class="load">努力加载中...</p>
+			</div>
+		</div>
+	</body>
+</html>
